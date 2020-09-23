@@ -1,5 +1,7 @@
 from . import db, login_manager
 from werkzeug.security import generate_password_hash,check_password_hash
+# from werkzeug.utils import secure_filename,
+# from werkzeug.datastructures import FileStorage
 from flask_login import UserMixin
 
 @login_manager.user_loader

@@ -111,6 +111,6 @@ def profile(uname):
         path = f'photos/{filename}'
         user.profile_pic_path = path
         db.session.commit()
-    return redirect(url_for('main.profile',uname=uname))
+    return redirect(url_for('main.profile',uname=user.username))
 
     return render_template("profile/profile.html", user = user)

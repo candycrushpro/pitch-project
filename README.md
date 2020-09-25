@@ -5,6 +5,9 @@
 
 * Pitches is a web application that allows users to use that one minute wisely. The users will submit their one minute pitch and other users will vote on them and leave comments to give their feedback on them. The pitches are organized by category. You can have different categories of pitches.
 
+# Live link
+* Click <a href="pitch-p.herokuapp.com">Pitch-Project</a> to see the live link
+
 ## User Requirements
 1. user should see the pitches other people have posted.
 2. user should view the different categories
